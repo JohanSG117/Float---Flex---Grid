@@ -1,0 +1,82 @@
+/*Global*/
+:root {
+    --theme-font-color: #585858;
+    --theme-backgrund-color: rgb(255, 255, 255);
+    --theme-font-family: "Source Sans Pro", Helvetica, sans-serif;
+    --theme-font-size: 21px;
+    --theme-line-height: 1.75;
+    --theme-color-gray: #c9c9c9;
+}
+
+body {
+    color: var(--theme-font-color);
+    font-family: var(--theme-font-family);
+    background: #FFF;
+    /* align-items: center; */
+}
+
+a {
+    font-family: var(--theme-font-family);
+    color: var(--theme-font-color);
+    line-height: var(--theme-line-height);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 0 0 2em 0;
+    letter-spacing: 0.35em;
+    font-size: x-large;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.box {
+    width: 100%;
+    background-color: turquoise;
+}
+
+.header-box {
+    text-align: center;
+}
+.nav-box {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nav-box a {
+    padding: 0.5rem 1rem;
+}
+
+.nav-box a.is-active {
+    box-shadow: 0 -4px 0 0 gold inset;
+    background-color: #ffffff9e;
+}
+
+.layout-1,
+.layout-2,
+.layout-3,
+.layout-4,
+.layout-5,
+.layout-6 {
+    /* FONT */
+   font-size: 1.5rem;
+   font-weight: 900;
+   letter-spacing: 0.35em;
+}
+
+[class*='-page'] {
+    background-color: rgb(192, 192, 192);
+}
+
+.title-layout {
+    background-color: greenyellow;
+    align-content: center;
+    padding: 20px;
+    margin: 15px auto;
+}
